@@ -15,7 +15,7 @@ class Main extends Phaser.State {
 
 		var word = "test"
 		var me = this;
-		new Cache(this.game);
+		
 		if(me.game.cache.getText('dictionary').indexOf(' ' + word + ' ') > -1){
 			alert("exists");
 		} else {
